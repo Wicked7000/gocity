@@ -2,10 +2,10 @@ name: Frontend Verify
 on:
   push:
     branches:
-      - frontend
+      - front-end
   pull_request:
     branches:
-      - frontend
+      - front-end
 jobs:
   build:
     name: Verify
