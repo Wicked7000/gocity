@@ -13,7 +13,7 @@ jobs:
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: install
-      - name: Yarn Install Eslint
+      - name: Yarn Install eslint
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: install eslint
